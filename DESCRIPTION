@@ -1,0 +1,33 @@
+Package: nplyr
+Title: A Grammar of Nested Data Manipulation
+Version: 0.1.0
+Authors@R: 
+    person(given = "Mark",
+           family = "Rieke",
+           role = c("aut", "cre"),
+           email = "markjrieke@gmail.com")
+Description: Provides functions for manipulating nested data frames in a 
+    list-column using 'dplyr' <https://dplyr.tidyverse.org/> syntax. Rather than 
+    unnesting, then manipulating a data frame, 'nplyr' allows users to 
+    manipulate each nested data frame directly. 'nplyr' is a wrapper for 'dplyr'
+    functions that provide tools for common data manipulation steps: filtering 
+    rows, selecting columns, summarising grouped data, among others.
+License: MIT + file LICENSE
+URL: https://github.com/markjrieke/nplyr,
+        https://markjrieke.github.io/nplyr/
+BugReports: https://github.com/markjrieke/nplyr/issues
+Depends: dplyr, R (>= 2.10)
+Imports: assertthat, purrr, rlang
+Encoding: UTF-8
+RoxygenNote: 7.2.0
+Suggests: gapminder, knitr, readr, rmarkdown, stringr, testthat (>=
+        3.0.0), tibble, tidyr
+Config/testthat/edition: 3
+VignetteBuilder: knitr
+LazyData: true
+NeedsCompilation: no
+Packaged: 2022-07-17 12:56:12 UTC; E1735399
+Author: Mark Rieke [aut, cre]
+Maintainer: Mark Rieke <markjrieke@gmail.com>
+Repository: CRAN
+Date/Publication: 2022-07-18 12:10:02 UTC
