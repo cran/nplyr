@@ -1,11 +1,14 @@
 Package: nplyr
 Title: A Grammar of Nested Data Manipulation
-Version: 0.1.0
+Version: 0.2.0
 Authors@R: 
-    person(given = "Mark",
-           family = "Rieke",
-           role = c("aut", "cre"),
-           email = "markjrieke@gmail.com")
+    c(person(given = "Mark",
+             family = "Rieke",
+             role = c("aut", "cre"),
+             email = "markjrieke@gmail.com"),
+      person(given = "Joran",
+             family = "Elias",
+             role = "ctb"))
 Description: Provides functions for manipulating nested data frames in a 
     list-column using 'dplyr' <https://dplyr.tidyverse.org/> syntax. Rather than 
     unnesting, then manipulating a data frame, 'nplyr' allows users to 
@@ -16,18 +19,19 @@ License: MIT + file LICENSE
 URL: https://github.com/markjrieke/nplyr,
         https://markjrieke.github.io/nplyr/
 BugReports: https://github.com/markjrieke/nplyr/issues
-Depends: dplyr, R (>= 2.10)
+Depends: dplyr, tidyr, R (>= 2.10)
 Imports: assertthat, purrr, rlang
 Encoding: UTF-8
-RoxygenNote: 7.2.0
+RoxygenNote: 7.2.3
 Suggests: gapminder, knitr, readr, rmarkdown, stringr, testthat (>=
-        3.0.0), tibble, tidyr
+        3.0.0), tibble
 Config/testthat/edition: 3
 VignetteBuilder: knitr
 LazyData: true
 NeedsCompilation: no
-Packaged: 2022-07-17 12:56:12 UTC; E1735399
-Author: Mark Rieke [aut, cre]
+Packaged: 2023-02-14 17:18:00 UTC; E1735399
+Author: Mark Rieke [aut, cre],
+  Joran Elias [ctb]
 Maintainer: Mark Rieke <markjrieke@gmail.com>
 Repository: CRAN
-Date/Publication: 2022-07-18 12:10:02 UTC
+Date/Publication: 2023-02-14 17:50:07 UTC

@@ -1,3 +1,13 @@
+# nplyr 0.2.0
+
+* Wrappers around `tidyr` functions that can be applied to nested tibbles (@joranE, #14):
+  + `nest_drop_na()`
+  + `nest_extract()`
+  + `nest_fill()`
+  + `nest_replace_na()`
+  + `nest_separate()`
+  + `nest_unite()`
+
 # nplyr 0.1.0
 
 * Wrappers around `dplyr` functions that can be applied to nested tibbles:
